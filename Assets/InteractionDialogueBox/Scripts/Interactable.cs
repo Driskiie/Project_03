@@ -19,7 +19,7 @@ public class Interactable : MonoBehaviour
     }
     private void OnTriggerExit(Collider other)
     {
-        if (gameObject.CompareTag("TriggerInteractabe"))
+        if (gameObject.CompareTag("TriggerInteractable"))
         {
             onInteraction.Invoke();
 
